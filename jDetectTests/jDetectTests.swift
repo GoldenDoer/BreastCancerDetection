@@ -23,8 +23,23 @@ class jDetectTests: XCTestCase {
     
     func testExample() {
         // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        // Use XCTAssert and related functions to verify your
+        //tests produce the correct results.
+       
+        
     }
+   
+    func testEMAiLValidati(){
+        let loginvc = LoginViewController()
+    
+        
+        loginvc.login(user: "frestie@idetect.com",pass: "123456")
+        
+        print("login succcess")
+       //XCTAssertFalse(vc.errorLabel!.isHidden)
+       //XCTAssertEqual("Please enter a password")
+    }
+    
     
     func testPerformanceExample() {
         // This is an example of a performance test case.

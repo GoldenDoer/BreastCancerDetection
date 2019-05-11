@@ -1,0 +1,6 @@
+framework module Pods_jDetectUITests {
+  umbrella header "Pods-jDetectUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
